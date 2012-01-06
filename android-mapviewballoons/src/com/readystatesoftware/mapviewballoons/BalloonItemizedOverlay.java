@@ -60,6 +60,10 @@ public abstract class BalloonItemizedOverlay<Item extends OverlayItem> extends I
 		viewOffset = 0;
 		mc = mapView.getController();
 	}
+    
+	public BalloonOverlayView<Item> getBalloonview() {
+		return balloonView;
+	}
 	
 	/**
 	 * Set the horizontal distance between the marker and the bottom of the information
